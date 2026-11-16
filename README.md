@@ -8,3 +8,5 @@ Inhalte fuer bremen.city. Die Website holt `content.json` zweimal taeglich ab.
 - Nur Tatsachen aus Primaerquellen (Polizei, Senat, Veranstalter, BSAG, Behoerden). Eigene Formulierung, keine uebernommenen Saetze.
 - Keine Namen von Privatpersonen, keine Vorverurteilung ("soll", "nach Angaben der Polizei").
 - Eintraege nie loeschen, nur ergaenzen oder korrigieren (gleicher slug = Aktualisierung).
+- `news[].category` (PFLICHT): genau einer der Werte `blaulicht` (Polizei, Feuerwehr), `verkehr` (Strasse, BSAG, Bahn, Baustellen), `stadt-politik` (Senat, Buergerschaft, Behoerden), `freizeit` (Kultur, Sport, Veranstaltungen).
+- Pro Lauf moeglichst mindestens eine Meldung, die nicht aus `blaulicht` stammt.
